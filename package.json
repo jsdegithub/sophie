@@ -1,0 +1,20 @@
+{
+  "name": "sophie",
+  "version": "1.0.0",
+  "description": "Sophie WeChat Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env WECHATY_LOG=verbose WECHATY_PUPPET=wechaty-puppet-wechat node src/index.js",
+    "dev": "cross-env WECHATY_LOG=verbose WECHATY_PUPPET=wechaty-puppet-wechat nodemon src/index.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-padlocal": "^1.20.1",
+    "wechaty-puppet-wechat": "^1.18.4"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
