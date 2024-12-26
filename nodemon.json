@@ -1,0 +1,8 @@
+{
+  "watch": ["src"],
+  "ignore": ["node_modules", "*.memory-card.json", ".wechaty", "*.log", ".git", "package*.json"],
+  "ext": "js",
+  "delay": "3000",
+  "verbose": true,
+  "restartable": "rs"
+}
