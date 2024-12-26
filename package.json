@@ -10,7 +10,6 @@
   "dependencies": {
     "qrcode": "^1.5.4",
     "wechaty": "^1.20.2",
-    "wechaty-puppet-padlocal": "^1.20.1",
     "wechaty-puppet-wechat": "^1.18.4"
   },
   "devDependencies": {
